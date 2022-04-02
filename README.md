@@ -1,2 +1,22 @@
 # phpcoinminer
-phpcoinminer docker
+## phpcoinminer docker
+
+clone this repo and edit the Dockerfile with your fav editor (nano for example)
+
+edit this line to change to your PHPCoin wallet, edit the last numer "80" to change the CPU intension
+
+_ENTRYPOINT exec php utils/miner.php http://45.15.160.190/ your_wallet 80_
+
+then build the docker image with command
+
+> docker build -t yourtag:tag .
+
+after the built process complete, you will see the image in your machine, run it with docker run command
+
+> docker run -d --restart always --name phpcoinminer yourtag:tag
+
+you can push to your docker hub, like mine
+
+https://hub.docker.com/repository/docker/thanhtantran/phpcoinminer
+
+then clone into another machine
