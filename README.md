@@ -1,0 +1,2 @@
+# phpcoinminer
+phpcoinminer docker
