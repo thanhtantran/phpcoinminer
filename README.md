@@ -20,3 +20,11 @@ you can push to your docker hub, like mine
 https://hub.docker.com/repository/docker/thanhtantran/phpcoinminer
 
 then clone into another machine
+
+This Dockerfile proven runs well on AMD/ARM v7/ARM64 (see my docker hub for image for each arch/os)
+
+IF you have a cluster (swarm) of Pi (OrangePi/RaspPi/ ..)
+
+You can run it as a Global service for all nodes in the swamp
+
+[My swamp](username.github.com/repository/img/image.jpg)
