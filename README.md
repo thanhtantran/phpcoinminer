@@ -27,4 +27,6 @@ IF you have a cluster (swarm) of Pi (OrangePi/RaspPi/ ..)
 
 You can run it as a Global service for all nodes in the swamp
 
-[My swamp](username.github.com/repository/img/image.jpg)
+[My opi3lts swamp](https://github.com/thanhtantran/phpcoinminer/blob/main/opi3lts-swamp.png)
+
+[My op pcplus swamp](https://github.com/thanhtantran/phpcoinminer/blob/main/pcplus-swamp.png)
